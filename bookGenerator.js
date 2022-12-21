@@ -158,19 +158,3 @@ async function useOpenAiApi(novelInformation){
 
 //loopNewChapters();
 export { loopNewChapters };
-
-
-/*
-Keys in the .env file (re-make):
-
-OPENAI_API_KEY=
-NOVEL_MAIN_CHARACTER_NAME=
-NOVEL_MAIN_CHARACTER_PERSONALITY=
-NOVEL_MAIN_CHARACTER_PURPOSE=
-NOVEL_STARTING_SCENARIO=
-NOVEL_SETTING=
-NOVEL_PLOT=
-NOVEL_LESSON=
-NOVEL_ENDING=
-NOVEL_EXTRA_INFORMATION=
-*/

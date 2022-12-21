@@ -4,5 +4,9 @@
     "dotenv": "^16.0.3",
     "openai": "^3.1.0"
   },
+  "scripts": {
+    "start": "node bookToTxt.js"
+  },
   "type": "module"
+
 }
