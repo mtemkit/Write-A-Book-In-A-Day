@@ -43,3 +43,7 @@ By entering the API key and sample inputs found in the "sampleEnvVarInput.md" fi
 <p align="left">
   <img src="images/sample_story_example.png" width="1000" height="600" title="Sample Story Text Output">
 </p>
+
+### Note:
+
+I may scarcely update this repository from this point on (late 2022) as I am working on a more advanced version of this code for the private code of a business idea that I am developing for. I may eventually link the end result here. In the meantime, I may make updates to this repository for practice or experimentation of ideas for the other project.
