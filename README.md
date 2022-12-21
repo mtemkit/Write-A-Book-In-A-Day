@@ -6,7 +6,7 @@ The aim of this code is to allow me to write a full novel (of any chapter length
 
 ### Languages used: 
 
-HTML, CSS, JavaScript (w/ Node.JS) 
+JavaScript (w/ Node.JS) 
 
 ### APIs used:
 
