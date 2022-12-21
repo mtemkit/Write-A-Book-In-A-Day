@@ -40,6 +40,6 @@ Just enter "npm run start" in your console. Make sure to create a ".env" file an
 
 By entering the API key and sample inputs found in the "sampleEnvVarInput.md" file, these are the type of chapters you could expect. Be aware that if you ran the code and entered this exact same input, besides the general provided outlines, the output would be unique since the book is written using AI.
 
-<p align="center">
-  <img src="images/sample_story_example.png" width="500" title="Sample Story Text Output">
+<p align="left">
+  <img src="images/sample_story_example.png" width="1000" height="1000" title="Sample Story Text Output">
 </p>
