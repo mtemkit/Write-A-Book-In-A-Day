@@ -3,6 +3,7 @@ import * as dotenv from 'dotenv'; //hiding api keys or private info into .env fi
 dotenv.config()
 
 let novelInfo = {
+  currentChapterNumber: 1,
   mainName: process.env.NOVEL_MAIN_CHARACTER_NAME, 
   mainPersonality: process.env.NOVEL_MAIN_CHARACTER_PERSONALITY,
   mainPurpose: process.env.NOVEL_MAIN_CHARACTER_PURPOSE,
@@ -12,9 +13,8 @@ let novelInfo = {
   lesson: process.env.NOVEL_LESSON,
   ending: process.env.NOVEL_ENDING,
   extraInfo: process.env.NOVEL_EXTRA_INFORMATION,
-  currentChapterNumber: 1,
-  numberOfChapters: 2,
-  chapterWordLength: 500
+  numberOfChapters: parseInt(process.env.NUMBER_OF_CHAPTERS),
+  chapterWordLength: parseInt(process.env.CHAPTER_WORD_LENGTH)
 }
 
 function processText(text) {
