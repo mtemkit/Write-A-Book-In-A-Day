@@ -16,14 +16,14 @@ OpenAI
 
 All I need to do is provide inputs for the following traits of a novel below, and the code should output a complete book using OpenAI:
 
-(1) main character name
-(2) main character personality
-(3) main character purpose
-(4) novel starting scenario
-(5) novel setting
-(6) novel plot
-(7) novel lesson
-(8) novel ending
+(1) main character name\
+(2) main character personality\
+(3) main character purpose\
+(4) novel starting scenario\
+(5) novel setting\
+(6) novel plot\
+(7) novel lesson\
+(8) novel ending\
 (9) novel extra information
 
 ### How long does it take the program complete the book?
