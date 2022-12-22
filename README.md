@@ -44,6 +44,7 @@ By entering the API key and sample inputs found in the "sampleEnvVarInput.md" fi
   <img src="images/sample_story_example.png" width="1000" height="600" title="Sample Story Text Output">
 </p>
 
-### Note:
+### Update (late 2022):
 
-I may scarcely update this repository from this point on (late 2022) as I am working on a more advanced version of this code for the private code of a business idea that I am developing for. I may eventually link the end result here. In the meantime, I may make updates to this repository for practice or experimentation of ideas for the other project.
+I am currently working on a more advanced version of this code in my private repo for a business idea and will aim to link the end result here.
+In the meantime, any future updates made to this repository will be solely for experimenting with ideas.
