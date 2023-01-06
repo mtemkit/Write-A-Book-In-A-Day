@@ -56,14 +56,15 @@ function returnPrompt(novelInformation){
   As extra information about the story, it is important to remember that ${novelInformation.extraInfo}`
 
 
-  let firstChapterPrompt = `Write the first chapter of a story about ${storySummary}.
+  let firstChapterPrompt = `Write the first chapter of a story about ${storySummary}. 
 
   Make sure to randomly generate vivid descriptions, the specific name of the location for the setting inside of 
   the provided world, and to provide the names of the side-characters that the main character interacts with for
   this chapter. Make sure to end this chapter on a subtle cliff hanger. 
 
   You should assume that this story will have a total of ${novelInformation.numberOfChapters} chapters and that 
-  each chapter should be ${novelInformation.chapterWordLength} words long. For the ending, assume that 
+  each chapter should be ${novelInformation.chapterWordLength} words long. Make sure to slow down the pacing of the story 
+  with the assumption that it will last for ${novelInformation.numberOfChapters} chapters. For the ending, assume that 
   ${novelInformation.mainName} will ${novelInformation.ending}. However, DO NOT include this information in 
   the chapter. This is just context for when you're writing the first chapter. Make sure to include a chapter title.`
 
@@ -80,24 +81,25 @@ function returnPrompt(novelInformation){
   This is chapter number ${novelInformation.currentChapterNumber}. Make sure to include a chapter title with the current chapter number.
   
   Make sure to have continuity with the plot of the story, make sure that the main character acts in a manner 
-  that is consistent with his personality, and include the specific names of the main character, side characters, 
-  and locations when they need to be used. Also end this chapter on a subtle cliff hanger. 
+  that is consistent with his personality, to randomly generate vivid descriptions, and to include the specific names of the main character, 
+  side characters, and locations when they need to be used. Also end this chapter on a subtle cliff hanger. 
   This is chapter number ${novelInformation.currentChapterNumber} of the story.
 
   You should assume that this story will have a total of ${novelInformation.numberOfChapters} chapters and that 
-  each chapter should be ${novelInformation.chapterWordLength} words long. For the ending, assume that 
+  each chapter should be ${novelInformation.chapterWordLength} words long. Make sure to slow down the pacing of the story 
+  with the assumption that it will last for ${novelInformation.numberOfChapters} chapters. For the ending, assume that 
   ${novelInformation.mainName} will ${novelInformation.ending}. However, DO NOT include this information in 
   the chapter. This is just context for when you're writing the current chapter.`
 
   for (let i=1; i < novelInformation.currentChapterNumber; i++) {
     
-    if (novelInformation.currentChapterNumber>3){
-      if (i<novelInformation.currentChapterNumber-3){
+    if (novelInformation.currentChapterNumber>4){
+      if (i<novelInformation.currentChapterNumber-4){
         continue;
       }
     }
     else {
-      if (i>3){
+      if (i>4){
         break;
       }
     }
